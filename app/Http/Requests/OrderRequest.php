@@ -24,7 +24,7 @@ class OrderRequest extends FormRequest
     {
         return [
             'shipping_address' => 'required|string',
-            'payment_method' => 'required|in:code,fake_payment',
+            'payment_method' => 'required|in:cod,fake_payment',
         ];
     }
 }
